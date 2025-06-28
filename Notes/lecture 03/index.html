@@ -1,67 +1,88 @@
+<!-- // HTML#2 -->
+
+
+
+
 <html>
 
 <head>
-    <title>CSS Learning</title>
-    <link rel="stylesheet" href="styles.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Epilogue:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-
-
-    <style>
-        /* 
-            div{
-                color: skyblue;
-                font-size: 40px;
-            } */
-    </style>
-
+    <title>MY 2nd Page</title>
 </head>
 
 <body>
-    <!-- <h1>Inline CSS</h1>
-        <p style="color:plum; font-size: 30px;">this is my dummy text</p>
 
-        <hr>
+    <!-- <img> <br> -->
+    <!--comments-->
 
-        <h1>Internal CSS</h1>
-        <div>this is my dummy text 2</div>
+    <h1>HTML List</h1>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Js</li>
+    </ul>
 
-        <hr>
-
-        <h1>External CSS</h1>
-        <span style="color:plum; font-size: 30px;">this is my dummy text 3</span>
+    <p>this is a demo <br> page</p>
 
 
-        <p>this is a <span style="color: aqua;">dummy</span> text 4</p>
-         -->
+
+    <ol type="A" start="2">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Js</li>
+    </ol>
 
     <hr>
-    <!-- <h1>Selectors</h1>
+    <h1>Table</h1>
 
-        <h2 class="highlight">this is a heading 1</h2>
-        <h2 class="highlight">this is a heading 2</h2>
-        <h2 id="unique">this is a heading 3</h2>
+    <table border="1" cellpadding="30" cellspacing="50">
+        <tr>
+            <th>Name</th>
+            <th>Sub</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>SIA</td>
+            <td>CS</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Medha</td>
+            <td>Maths</td>
+            <td>40</td>
+        </tr>
 
-        <p>this is a new dummy text</p> -->
+    </table>
+
+    <hr>
+    <!-- word:meaninng
+        username:SIA -->
+    <h1>Form</h1>
+    <form action="/submit" method="POST">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="firstname" required>
+        <br>
+        <label>Email</label>
+        <input type="email" name="useremail" required>
+
+        <br>
+        <label>Password</label>
+        <input type="password" name="password" required>
+
+        <br>
+        <label>Gender</label>
+        <label><input type="radio" name="gender" value="male">Male</label>
+        <label><input type="radio" name="gender" value="female">FeMale</label>
+
+        <br>
+        <label>Skills</label>
+        <label><input type="checkbox" name="skills" value="html">html</label>
+        <label><input type="checkbox" name="skills" value="css">css</label>
 
 
+        <input type="submit">
 
-    <h1>Text & font prop.</h1>
-
-    <p class="color-demo">this is a dummy text</p>
-
-    <p class="size-demo">this is a dummy text</p>
-
-    <p class="family-demo">this is a dummy text</p>
-
-    <p class="weight-demo">this is a dummy text</p>
-
-    <p class="align-demo">this is a dummy text</p>
-
-    <p class="decoration-demo"> this is a dummy text</p>
-
+    </form>
 
 </body>
 

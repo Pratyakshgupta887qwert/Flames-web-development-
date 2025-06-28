@@ -1,0 +1,5 @@
+// ORIENTATION
+
+
+Every team has a TEAM LEAD which will doing STAND-UP MEETING with his/her team and he will be doing SCRUM-MEETING with mentor for the discussing the problems of the team.
+yesterday -> today -> blockage

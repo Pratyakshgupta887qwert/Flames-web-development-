@@ -1,0 +1,32 @@
+// GITHUB#2
+
+
+
+
+
+in terminal:
+
+here in this we have first created the repo in github then we are creating the code in vs then using vs terminal only for first seting git init adding .git file then adding all files then commit and adding origin means where will push the code means repository address
+
+
+git init
+git add .
+git commit -m""
+git remove -v ---> origin ?
+git remote add origin URL of github repo --> it is where the code will push to
+git branch -m main 
+git push -u origin main
+
+
+
+
+pulling repo
+in cmd
+
+cd ..   --> to come to basic
+git clone URL 
+
+
+
+git pull
+git pull origin main
