@@ -20,7 +20,6 @@
 
 
 // 2nd condi
-//  function fun1(){
 
 //     function sayHi(){
 
